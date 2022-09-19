@@ -44,16 +44,15 @@ def generate_random_cipher_pipeline(n:int,alphabet:str,shift_range:tuple,r:int,c
     return operations_keys
 
 if __name__ == "__main__":
-    with open("input.json","r") as f:
-        data = json.load(f)
-    
+  
     n = int(input("Number of ciphering methods to use: "))
     shift_lower = int(input("Shift lower key value: "))
     shift_upper = int(input("Shift higher key value: "))
     r = int(input("Number of matrix rows: "))
     c = int(input("Number of matrix columns: "))
 
-    data["cipherPipeline"] = generate_random_cipher_pipeline(
+    
+    cipher_pipeline = generate_random_cipher_pipeline(
         n = n,
         alphabet="abcdefghijklmnopqrstuvwxyz",
         shift_range=(shift_lower,shift_upper),
@@ -61,5 +60,5 @@ if __name__ == "__main__":
         c = c
     )
 
-    with open("input.json","w") as f:
-        json.dump(data,f,indent = 6)
+    with open("cipher_pipeline.json","w") as f:
+        json.dump(cipher_pipeline,f,indent = 6)
