@@ -17,3 +17,6 @@ Now you can run the app with the PySimpleGUI interface.
 ```python3
 python3 app.py
 ```
+## App
+
+![App Image](https://github.com/DancingIguana/EncryptionAlgorithms/blob/main/PublicPrivateKeys/images/app_img.png)
