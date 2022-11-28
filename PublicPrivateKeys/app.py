@@ -1,7 +1,4 @@
 import PySimpleGUI as sg
-
-
-
 import cv2
 import rsa
 import numpy as np
