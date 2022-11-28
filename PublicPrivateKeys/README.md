@@ -3,7 +3,7 @@ Extremely basic implementation of the Public and Private key principles using Py
 
 ## Dependencies
 
-- [PysimpleGUI](https://www.pysimplegui.org/en/latest/)
+- [PySimpleGUI](https://www.pysimplegui.org/en/latest/)
 - [Python-RSA](https://stuvel.eu/software/rsa/)
 - [NumPy](https://numpy.org/)
 - [OpenCV](https://docs.opencv.org/4.x/index.html)
