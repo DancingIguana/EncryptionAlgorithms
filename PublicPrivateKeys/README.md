@@ -1,6 +1,13 @@
 # Public Private Keys
 Extremely basic implementation of the Public and Private key principles using Python-RSA and PySimpleGUI.
 
+## Dependencies
+
+- [PysimpleGUI](https://www.pysimplegui.org/en/latest/)
+- [Python-RSA](https://stuvel.eu/software/rsa/)
+- [NumPy](https://numpy.org/)
+- [OpenCV](https://docs.opencv.org/4.x/index.html)
+
 ## Get Started
 
 First download this folder. Afterwards get the necessary libraries (Python-RSA and PySimpleGUI) by running the following command.
