@@ -1,0 +1,3 @@
+rsa
+PySimpleGUI
+opencv-python
